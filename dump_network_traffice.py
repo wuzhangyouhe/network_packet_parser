@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# encoding: utf-8
 '''
 the code is using for network traffic layers parsing.
     for example , parsing ethernet header, ip header
