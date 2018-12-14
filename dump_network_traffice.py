@@ -28,7 +28,7 @@ def ethernet_frame(data):
 
 #Return properly formatted MAC address (say AA:BB:CC:DD:EE:FF)
 def get_mac_addr(mac_addr):
-    bytes_str = map('{:02x}'.format, bytes_addr)
+    bytes_str = map('{:02x}'.format, mac_addr)
     return ':'.join(bytes_str).upper()
 
 main()
